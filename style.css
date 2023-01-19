@@ -1,89 +1,92 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 :root {
-    --purple: #BB99DD;
+  --blue: #1b4079;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    background-color: #faf7fd;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #effffa;
 }
 
 main {
-    flex: 1;
+  flex: 1;
 }
 div {
-    text-align: center;
+  text-align: center;
 }
 
 footer {
-    margin-top: 100px;
-    min-height: 50px;
-    text-align: center;
-    font-weight: 300;
-    font-size: 0.75rem;
-    color: var(--purple)
+  margin-top: 100px;
+  min-height: 50px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 0.75rem;
+  color: var(--blue);
 }
 
 p {
-    font-weight: 300;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    width: 50%;
-    color: var(--purple);
-    text-align: center;
+  font-weight: 300;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 50%;
+  color: var(--blue);
+  text-align: center;
 }
 
-.links{
-    width: 300px;
-    padding: 8px;
-    border: 2px solid var(--purple) ;
-    border-radius: 5px;
-    font-weight: 600;
-    color: var(--purple) ;
-    margin: 0 auto 10px auto ;
+.links {
+  width: 300px;
+  padding: 8px;
+  border: 2px solid var(--blue);
+  border-radius: 5px;
+  font-weight: 600;
+  color: var(--purple);
+  margin: 0 auto 10px auto;
 }
 
 .profilepic {
-    border: 3px solid var(--purple);
-    padding: 1px;
-    margin: 100px auto 10px auto ;
-    width: 200px;
-    border-radius: 50%;
+  border: 3px solid var(--blue);
+  padding: 1px;
+  margin: 100px auto 10px auto;
+  width: 200px;
+  border-radius: 50%;
 }
 
 .socials {
-    display: flex;
-    justify-content: space-around;
-    width: 300px;
-    margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+  margin: 20px auto;
+}
+
+.links:hover {
+  display: block;
+  transform: scale(1.1);
+  transition: 0.3s;
+  background-position: -60px;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-a:link{
-    color: var(--purple);
-  }
-  a:visited{
-    color: var(--purple);
-  }
-  a:hover{
-    color: var(--purple);
-  }
-  a:focus{
-    color: var(--purple);
-  }
-  a:active{
-    color: var(--purple);
-  }
-
+a:link {
+  display: block;
+  color: var(--blue);
+}
+a:visited {
+  display: block;
+  color: var(--blue);
+}
+a:hover {
+  display: block;
+  color: var(--blue);
+}
