@@ -12,20 +12,15 @@
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
   background-color: #effffa;
 }
 
-main {
-  flex: 1;
-}
 div {
   text-align: center;
 }
 
 footer {
-  margin-top: 100px;
-  min-height: 50px;
+  margin-top: 190px;
   text-align: center;
   font-weight: 300;
   font-size: 0.75rem;
@@ -56,6 +51,7 @@ p {
   border: 3px solid var(--blue);
   padding: 1px;
   margin: 100px auto 10px auto;
+  height: 200px;
   width: 200px;
   border-radius: 50%;
 }
